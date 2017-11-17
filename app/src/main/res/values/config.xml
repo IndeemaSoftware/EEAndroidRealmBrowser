@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="realm_file_name">sample.realm</string>
+    <integer name="realm_schema_version">0</integer>
+
+</resources>

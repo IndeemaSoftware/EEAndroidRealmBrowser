@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorBrowserPrimary">@color/colorLightGray</color>
+    <color name="colorBrowserPrimaryDark">@color/colorGray</color>
+    <color name="colorBrowserPrimaryLight">@color/colorWhiteSmoke</color>
+    <color name="colorBrowserAccent">@color/colorGreen</color>
+    <color name="colorBrowserTextPrimary">@color/colorBlackOpacity86</color>
+    <color name="colorBrowserTextSecondary">@color/colorBlackOpacity66</color>
+    <color name="colorBrowserListItemBackgroundLight">#ffffff</color>
+    <color name="colorBrowserListItemBackgroundDark">#e6e6e6</color>
+
+    <color name="colorDracula">#313335</color>
+    <!--<color name="colorDraculaDark">#2B2B2B</color>-->
+    <color name="colorDraculaDark">#282828</color>
+    <color name="colorDraculaLight">#3C3F41</color>
+    <color name="colorDraculaAccent">#61614B</color>
+    <color name="colorDraculaTextPrimary">#c3e6de</color>
+    <color name="colorDraculaTextSecondary">#AEBBBB</color>
+    <color name="colorDraculaListItemBackgroundLight">#595B5D</color>
+    <color name="colorDraculaListItemBackgroundDark">#3B3D3F</color>
+
+    <color name="colorBrowserWindowBackground">#ffffff</color>
+
+    <color name="colorWhiteSmoke">#F5F5F5</color>
+    <color name="colorLightGray">#D3D3D3</color>
+    <color name="colorGray">#BEBEBE</color>
+    <color name="colorDarkGray">#A9A9A9</color>
+    <color name="colorGreen">#57D900</color>
+
+    <color name="colorBlackOpacity24">#3d000000</color>
+    <color name="colorBlackOpacity30">#4d000000</color>
+    <color name="colorBlackOpacity50">#81000000</color>
+    <color name="colorBlackOpacity66">#a8000000</color>
+    <color name="colorBlackOpacity86">#db000000</color>
+    <color name="colorBlack">#000000</color>
+
+    <color name="colorWhiteOpacity24">#3dffffff</color>
+    <color name="colorWhiteOpacity30">#4dffffff</color>
+    <color name="colorWhiteOpacity50">#80ffffff</color>
+    <color name="colorWhiteOpacity66">#a8ffffff</color>
+    <color name="colorWhiteOpacity86">#dbffffff</color>
+    <color name="colorWhite">#ffffff</color>
+
+</resources>

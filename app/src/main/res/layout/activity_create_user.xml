@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/app_padding">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/name_layout"
+                android:background="@drawable/shadow"
+                style="@style/TextInputLayoutStyle">
+
+                <EditText
+                    android:id="@+id/name_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/prompt_name"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/address_layout"
+                style="@style/TextInputLayoutStyle"
+                android:background="@drawable/shadow"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/address_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/prompt_address"
+                    android:imeOptions="actionNext"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/telephone_layout"
+                style="@style/TextInputLayoutStyle"
+                android:background="@drawable/shadow"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/telephone_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/telephone_number"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/email_layout"
+                android:background="@drawable/shadow"
+                style="@style/TextInputLayoutStyle"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/email_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/manufacturer_layout"
+                style="@style/TextInputLayoutStyle"
+                android:background="@drawable/shadow"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/manufacturer_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/prompt_manufacturer"
+                    android:imeOptions="actionNext"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/model_layout"
+                style="@style/TextInputLayoutStyle"
+                android:background="@drawable/shadow"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/model_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/prompt_model"
+                    android:imeOptions="actionNext"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/name_os_layout"
+                android:background="@drawable/shadow"
+                style="@style/TextInputLayoutStyle"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/name_os_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/software_name"
+                    android:imeOptions="actionNext"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/version_layout"
+                style="@style/TextInputLayoutStyle"
+                android:background="@drawable/shadow"
+                android:layout_marginTop="@dimen/app_padding">
+
+                <EditText
+                    android:id="@+id/version_et"
+                    style="@style/EditTextStyle"
+                    android:hint="@string/version"
+                    android:imeOptions="actionNext"
+                    android:maxLength="30" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="18dp"
+        app:srcCompat="@drawable/ic_close_white_24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="14dp"
+        app:srcCompat="@drawable/ic_done_white_24dp" />
+
+   <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="14dp"
+        app:srcCompat="@drawable/ic_save_white_24dp" />
+</RelativeLayout>

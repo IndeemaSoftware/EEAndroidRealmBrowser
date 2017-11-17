@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:minHeight="72dp"
+              android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_text_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edit_input_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@color/colorBlackOpacity66"
+            android:textColorHint="@color/colorBlackOpacity66"
+            android:textColor="@color/colorBlackOpacity86"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>
