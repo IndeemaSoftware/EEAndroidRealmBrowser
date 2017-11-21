@@ -1,3 +1,4 @@
+![LOGO](https://github.com/IndeemaSoftware/EEAndroidRealmBrowser/blob/assets/indeema_logo.jpg?raw=true)
 # EE Android Realm Browser
 
 Realm Browser provides ability to reviewing multiple local Android Realm DB in separate Activity
