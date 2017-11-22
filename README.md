@@ -1,15 +1,14 @@
 ![LOGO](https://github.com/IndeemaSoftware/EEAndroidRealmBrowser/blob/assets/indeema_logo.jpg?raw=true)
 # EE Android Realm Browser
 
-Realm Browser provides ability to reviewing multiple local Android Realm DB in separate Activity
+Realm Browser for Android OS developed by [Indeema Software Inc.](https://indeema.com/). It provides ability to reviewing multiple local Android Realm DB in separate Activity.
 
-
-# Requirements
+## Requirements
 
 - Realm gradle plugin version 3.X.X
 
 
-# Integration
+## Integration
 
 ## Add this into project build.gradle file:
 ```
@@ -63,3 +62,11 @@ RealmBrowser.initialize(this, theme, pageSize, rbEntity1, rbEntity2);
 - Sorting objects list by field
 - Objects list pagination 
 - Realm Browser theme
+
+## Communication and Support
+If you encounter an issue or you have any comments or propositions with using **EEAndroidRealmBrowser** then you can reach us at **support@indeema.com**.
+
+- You can also follow our news at [@IndeemaSoftware](https://twitter.com/IndeemaSoftware) or on our [blog](https://indeema.com/blog).
+
+## License
+**EEAndroidRealmBrowser** works under the MIT license. For more information see [here](https://github.com/IndeemaSoftware/EEAndroidRealmBrowser/blob/master/LICENSE).
